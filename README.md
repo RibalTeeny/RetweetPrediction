@@ -7,7 +7,6 @@ This project tests different models to predict the number of retweets a tweet wi
 The project analyzes tweet data to predict retweet counts using features such as:
 * Text content (processed using TF-IDF and SVD)
 * User metrics (followers, following, status counts)
-* User metrics (followers, following, status counts)
 * Tweet metadata (URLs, hashtags, verification status)
 * Temporal features (hour of day, day of week)
 
