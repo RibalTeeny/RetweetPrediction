@@ -7,7 +7,6 @@ This project tests different models to predict the number of retweets a tweet wi
 The project analyzes tweet data to predict retweet counts using features such as:
 * Text content (processed using TF-IDF and SVD)
 * User metrics (followers, following, status counts)
-* User metrics (followers, following, status counts)
 * Tweet metadata (URLs, hashtags, verification status)
 * Temporal features (hour of day, day of week)
 
@@ -16,8 +15,6 @@ The project analyzes tweet data to predict retweet counts using features such as
 ### 1. Data Exploration
 * Dataset shape and basic statistics
 * Feature distributions and correlations
-* Missing value analysis
-* Text content analysis
 * User metrics distribution
 * Temporal patterns analysis
 * Visualization of key relationships
@@ -69,6 +66,6 @@ The following model files are saved during execution:
 
 ## Performance
 
-The project implements multiple models and combines them using ensemble techniques to achieve optimal performance. The stacking ensemble typically outperforms individual models.
+The project implements multiple models and combines them using ensemble techniques to achieve optimal performance. The stacking ensemble outperforms individual models.
 
 ![Performance Comparison](./assets/performance_comparison.png)
