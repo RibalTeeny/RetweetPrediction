@@ -1,4 +1,4 @@
-tests/
 .ipynb_checkpoints/
 __pycache__/
-rf_model.pkl
+tests/
+models/rf_model.pkl

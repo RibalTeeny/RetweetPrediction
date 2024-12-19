@@ -71,4 +71,4 @@ The following model files are saved during execution:
 
 The project implements multiple models and combines them using ensemble techniques to achieve optimal performance. The stacking ensemble typically outperforms individual models.
 
-![Performance Comparison](performance_comparison.png)
+![Performance Comparison](./assets/performance_comparison.png)
